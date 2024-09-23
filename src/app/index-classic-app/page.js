@@ -11,7 +11,7 @@ import MobileApp from "../componets/mobileApp"
 import Counter from "../componets/app/counter"
 import CounterTwo from "../componets/app/counterTwo"
 import VideoModal from "../componets/app/videoModal"
-import Accordian from "../componets/app/accordian"
+import Accordian from "../componets/app/Accordian"
 
 import * as Icon from 'react-feather';
 import {HiArrowTrendingUp} from "react-icons/hi2"
