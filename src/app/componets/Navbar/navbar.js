@@ -131,11 +131,11 @@ export default function Navbar(props) {
                     </li>
 
                     <li className={`${["/portfolio-modern-two", "/portfolio-modern-three","/portfolio-modern-four","/portfolio-modern-five","/portfolio-modern-six","/portfolio-classic-two","/portfolio-classic-three","/portfolio-classic-four","/portfolio-classic-five","/portfolio-classic-six","/portfolio-creative-two","/portfolio-creative-three","/portfolio-creative-four","/portfolio-creative-five","/portfolio-creative-six","/portfolio-masonry-two","/portfolio-masonry-three","/portfolio-masonry-four","/portfolio-masonry-five","/portfolio-masonry-six","/portfolio-detail-one","/portfolio-detail-two","/portfolio-detail-three",'/portfolio-detail-four'].includes(manu)? "active" : ""} has-submenu parent-parent-menu-item`} >
-                        <Link href="/blog">Blog</Link><span className="menu-arrow"></span>
+                        <Link href="/blog">Blog</Link>
                     </li>
 
                     <li className={`${["/ui-components", "/documentation","/changelog"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
-                        <Link href="/page-aboutus">About Us</Link><span className="menu-arrow"></span>
+                        <Link href="/page-aboutus">About Us</Link>
                     </li>
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
                     <li className={manu === "/auth-login" || "" ? "active" : ""}><Link href="/auth-login" className="sub-menu-item">Login</Link></li>
