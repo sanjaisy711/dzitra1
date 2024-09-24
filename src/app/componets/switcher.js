@@ -51,23 +51,8 @@ export default function Switcher() {
     }
     return (
         <>
-            <div className="fixed top-1/4 -right-3 z-50">
-                <span className="relative inline-block rotate-90">
-                    <input type="checkbox" className="checkbox opacity-0 absolute" id="chk" onClick={(event) => changeMode('mode', event)} />
-                    <label className="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" htmlFor="chk">
-                        <HiOutlineMoon className="text-[20px] text-yellow-500"/>
-                        <HiOutlineSun className="text-[20px] text-yellow-500"/>
-                        <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] size-7"></span>
-                    </label>
-                </span>
-            </div>
+        
 
-            <div className="fixed top-[40%] -right-3 z-50">
-                <Link href="#" id="switchRtl" className="cursor-pointer">
-                    <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold rtl:block ltr:hidden" onClick={(event) => changeMode('layout', event)}>LTR</span>
-                    <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold ltr:block rtl:hidden" onClick={(event) => changeMode('layout', event)}>RTL</span>
-                </Link>
-            </div>
 
             <Link href="#" onClick={scrollToTop}
                 id="back-to-top" className={`${!scrollToTops ? "hidden":"back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-2 size-9 text-center bg-indigo-600 text-white leading-9 flex items-center justify-center"}`}><HiArrowSmUp /></Link>
