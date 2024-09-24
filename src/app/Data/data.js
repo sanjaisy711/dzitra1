@@ -99,13 +99,13 @@ export const KeyFeatures = [
 export  const clientsData = [
   {
       description: ' It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. ',
-      image: "/public/images/client/01.jpg",
+      image: "/images/client/01.jpg",
       name: 'Kris Gopalakrishnan',
       role: 'C.E.O'
   },
   {
       description: ` The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. `,
-      image: "public/images/client/02.jpg",
+      image: "/images/client/02.jpg",
       name: 'Murugan Mariappan',
       role: 'C.E.O'
   },
