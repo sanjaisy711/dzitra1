@@ -65,7 +65,7 @@ export default function Navbar(props) {
         <div className="container relative">
             {
                 navClass === "nav-light" ?
-                    <Link className="logo" href="/index-modern-saas">
+                    <Link className="logo" href="/index">
                         <span className="inline-block dark:hidden">
                             <Image src='/images/logo-dark.png' className="l-dark" width={138} height={24}  alt="" />
                             <Image src='/images/logo-light.png' className="l-light" width={138} height={24} alt="" />
@@ -73,7 +73,7 @@ export default function Navbar(props) {
                         <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
                     </Link>
                     :
-                    <Link className="logo" href="/index-modern-saas">
+                    <Link className="logo" href="#">
                         <Image src='/images/logo-dark.png' width={138} height={24} className="inline-block dark:hidden" alt="" />
                         <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
                     </Link>
@@ -91,34 +91,7 @@ export default function Navbar(props) {
                 </div>
             </div>
 
-            {
-                navClass !== 'nav-light' ? <ul className={`buy-button list-none space-x-1 mb-0`} >
-                        <li className="inline mb-0">
-                            <Link href="#" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><LuSettings className="size-4" /></Link>
-                        </li>
-
-                        <li className="inline ps-1 mb-0">
-                            <Link href="https://1.envato.market/Dzitra-next" target="_blank" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></Link>
-                        </li>
-                        
-                    </ul>
-                    :
-                    <ul className="buy-button list-none space-x-1 mb-0">
-                    <li className="inline mb-0">
-                        <Link href="#">
-                            <span className="login-btn-primary"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><LuSettings className="size-4" /></span></span>
-                            <span className="login-btn-light"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><LuSettings className="size-4" /></span></span>
-                        </Link>
-                    </li>
             
-                    <li className="inline ps-1 mb-0">
-                        <Link href="https://1.envato.market/Dzitra-next" target="_blank">
-                            <div className="login-btn-primary"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></span></div>
-                            <div className="login-btn-light"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><BsCart3 className="size-4" /></span></div>
-                        </Link>
-                    </li>
-                </ul>
-            }
            
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
@@ -138,7 +111,7 @@ export default function Navbar(props) {
                         <Link href="/page-aboutus">About Us</Link>
                     </li>
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
-                    <li className={manu === "/auth-login" || "" ? "active" : ""}><Link href="/auth-login" className="sub-menu-item">Login</Link></li>
+                    <li className={manu === "/auth-login" || "" ? "active" : ""}><Link href="/auth-login" className="sub-menu-item">login</Link></li>
                 </ul>
             </div>
         </div >
