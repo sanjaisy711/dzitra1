@@ -23,21 +23,6 @@ export default function Footer() {
             title: 'Privacy Policy',
 
         },
-        {
-            route: '/documentation',
-            title: 'Documentation',
-            liClass: 'mt-[10px]',
-        },
-        {
-            route: '/changelog',
-            title: 'Changelog',
-            liClass: 'mt-[10px]',
-        },
-        {
-            route: '#!',
-            title: 'Widget',
-            liClass: 'mt-[10px]',
-        }
     ];
     const footerCompany = [
         {
@@ -48,13 +33,7 @@ export default function Footer() {
         {
             liClass: 'mt-[10px]',
             route: '/page-services',
-            title: 'Services',
-
-        },
-        {
-            route: '/page-team',
-            title: 'Team',
-            liClass: 'mt-[10px]',
+            title: 'Features',
 
         },
         {
@@ -64,23 +43,11 @@ export default function Footer() {
 
         },
         {
-            route: '/portfolio-creative-four',
-            title: 'Project',
-            liClass: 'mt-[10px]',
-
-        },
-        {
             route: '/blog',
             title: 'Blog',
             liClass: 'mt-[10px]',
 
         },
-        {
-            route: '/auth-login',
-            title: 'Login',
-            liClass: 'mt-[10px]',
-
-        }
     ]
     return (
         <div>
@@ -96,15 +63,11 @@ export default function Footer() {
                                         </Link>
                                         <p className="mt-6 text-gray-300">Dzitra allows you to design dynamic business apps that adapt to your needs. One platform. No-code. Hassle-free</p>
                                         <ul className="list-none mt-5 space-x-1 space-y-1">
-                                            <li className="inline"><Link href="https://1.envato.market/Dzitra-next" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><PiShoppingCart className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://www.behance.net/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaBehance className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://dribbble.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaDribbble className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="http://linkedin.com/company/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
+                                           <li className="inline"><Link href="https://www.linkedin.com/company/dzitra/" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
                                             <li className="inline"><Link href="https://www.facebook.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
                                             <li className="inline"><Link href="https://www.instagram.com/shreethemes/" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaInstagram className='text-sm'/></Link></li>
                                             <li className="inline"><Link href="https://twitter.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaTwitter className='text-sm'/></Link></li>
                                             <li className="inline"><Link href="mailto:support@shreethemes.in" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegEnvelope  className=" text-sm"/></Link></li>
-                                            <li className="inline"><Link href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegFile className='text-sm'/></Link></li>
                                         </ul>
                                     </div>
 
@@ -154,14 +117,6 @@ export default function Footer() {
                             <div className="md:text-start text-center">
                                 <p className="mb-0">© 2022 dzitra, Inc. All rights reserved. </p>
                             </div>
-
-                            <ul className="list-none md:text-end text-center space-x-1 mt-6 md:mt-0">
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/american-ex.png" className="max-h-6 inline" title="American Express" alt="" /></Link></li>
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/discover.png" className="max-h-6 inline" title="Discover" alt="" /></Link></li>
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/master-card.png" className="max-h-6 inline" title="Master Card" alt="" /></Link></li>
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/paypal.png" className="max-h-6 inline" title="Paypal" alt="" /></Link></li>
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/visa.png" className="max-h-6 inline" title="Visa" alt="" /></Link></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
