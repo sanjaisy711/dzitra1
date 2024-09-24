@@ -184,7 +184,7 @@ export default function Page(){
         <div className="container relative md:mt-24 mt-16">
             <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                 <div className="relative order-1 md:order-2 wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
-                    <Image src="/images/saas/classic05.png" width={0} height={0} sizes="100vw" style={{width:"100%",height:"auto"}} className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
+                    <Image src="/images/saas/classic05.PNG" width={0} height={0} sizes="100vw" style={{width:"100%",height:"auto"}} className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
                     <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
                 </div>
 
@@ -232,7 +232,7 @@ export default function Page(){
         <div className="container relative md:mt-24 mt-16">
             <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                 <div className="relative order-1 md:order-2 wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
-                    <Image src="/images/saas/classic06.png" width={0} height={0} sizes="100vw" style={{width:"100%",height:"auto"}} className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
+                    <Image src="/images/saas/classic06.PNG" width={0} height={0} sizes="100vw" style={{width:"100%",height:"auto"}} className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
                     <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
                 </div>
 
