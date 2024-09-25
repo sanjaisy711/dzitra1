@@ -10,7 +10,6 @@ const Switcher = dynamic(()=>import('./componets/switcher'));
 const CookieModal = dynamic(()=>import('./componets/cookieModal'));
 const CompanyLogo = dynamic(()=>import('./componets/companyLogo'));
 const GetInTuct = dynamic(()=>import('./componets/getInTuch'));
-import PricingOne from "./componets/pricingOne"
 import SaasCounter from "./componets/counter/saasCounter"
 import VideoModal from "./componets/videoModal/videoModal"
 import ClientsOne from "./componets/clientsOne"
@@ -208,7 +207,6 @@ export default function Page(){
         <div className=" md:mt-24 mt-16" >
           <ClientsOne/>
         </div>
-        <PricingOne/>
 
         <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-8 text-center">
