@@ -95,14 +95,17 @@ export default function Navbar(props) {
            
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
-                    <li className={manu === "page-services" || "" ? "active" : ""}>
+                    <li className={manu === "/index" || "" ? "active" : ""}>
+                        <Link href="index" >Home</Link>
+                    </li>
+                    <li className={manu === "/page-services" || "" ? "active" : ""}>
                         <Link href="page-services" >Features</Link>
                     </li>
 
                     <li className={manu === "/page-pricing" || "" ? "active" : ""}><Link href="page-pricing">Pricing</Link>
                     </li>
 
-                    <li className={manu === "blog" || "" ? "active" : ""}><Link href="blog">Blog</Link>
+                    <li className={manu === "/blog" || "" ? "active" : ""}><Link href="blog">Blog</Link>
                     </li>
 
                     <li className={manu === "/page-aboutus" || "" ? "active" : ""}>
