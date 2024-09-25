@@ -5,7 +5,6 @@ import Navbar from '../componets/Navbar/navbar';
 import Footer from '../componets/Footer/footer';
 import Switcher from '../componets/switcher';
 import GetInTuct from '../componets/getInTuch';
-import ClientsOne from '../componets/clientsOne';
 import ServiceFaq from '../componets/serviceFaq';
 import PricingTab from '../componets/pricingTab';
 
@@ -89,9 +88,7 @@ export default function Page(){
                 <ServiceFaq/>
             </div>
 
-            <div className="relative md:pb-24 pb-16">
-                <ClientsOne/>
-            </div>
+           
         <GetInTuct/>
         </section>
 
