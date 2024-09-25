@@ -35,7 +35,7 @@ export default function PricingTab(){
                         </li>
                     </ul>
 
-                    <div id="StarterContent" className="mt-6">
+                    <div id="StarterContent" className="mt-6 justify-self:center align-self: center">
                         {isOpenTab === 0 ?
                             <div>
                                 <div className="grid lg:grid-cols-4 md:grid-cols-2 mt-8 gap-[30px]">
