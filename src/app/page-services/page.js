@@ -4,7 +4,6 @@ import Link from "next/link"
 import Navbar from '../componets/Navbar/navbar'
 import Footer from '../componets/Footer/footer'
 import Switcher from '../componets/switcher'
-import ClientsOne from '../componets/clientsOne'
 import ProjectWork from '../componets/portfolio/projectWork'
 
 import {HiOutlineCog6Tooth} from "react-icons/hi2"
@@ -25,7 +24,7 @@ export default function Page(){
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
                     <h5 className="text-white/50 text-lg font-medium">What We Offer ?</h5>
-                    <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Our Services</h3>
+                    <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Our Features</h3>
                 </div>
             </div>
 
@@ -35,7 +34,7 @@ export default function Page(){
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="#">Company</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Services</li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Features</li>
                 </ul>
             </div>
         </section>
@@ -84,10 +83,6 @@ export default function Page(){
                 <div className="grid grid-cols-1 mt-8">
                     <ProjectWork/>
                 </div>
-            </div>
-
-            <div className=" md:mt-24 mt-16"> 
-                <ClientsOne/>
             </div>
 
             <div className="container relative md:mt-24 mt-16">
