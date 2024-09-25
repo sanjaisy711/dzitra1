@@ -25,7 +25,7 @@ export default function PricingTab(){
     const accordionData1 = accordionData.filter((x) => x.id < 5);
     const accordionData2 = accordionData.filter((x) => x.id > 4);
     return(
-        <div className="grid grid-cols-1">
+        <div className="grid grid-cols-1 justify-self:center align-self: center;">
                     <ul className="inline-block w-fit mx-auto flex-wrap justify-center text-center p-2 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-full">
                         <li role="presentation" className="inline-block">
                             <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Monthly</button>
