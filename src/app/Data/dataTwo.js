@@ -1073,13 +1073,14 @@ export const contactData = [
      icon:FiPhone,
      title:"Phone",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"+152 534-468-854"
+     contact:"+91 96116 22441",
+     contact:"+91 92444 44499"
     },
     {
      icon: FaRegEnvelope,
      title:"Email",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"contact@dzitra.com"
+     contact:"contact@worksbyte.com"
     },
     {
      icon:RiMapPinLine,
