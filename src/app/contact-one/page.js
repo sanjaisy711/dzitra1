@@ -88,7 +88,6 @@ export default function Page(){
                                                 </div>
                                             </div>
                                         </div>
-                                      <div className="grid lg:grid-cols-12 lg:gap-6">
                                         <div className="lg:col-span-6 mb-5">
                                             <div className="text-start">
                                                 <label htmlFor="name" className="font-semibold">Last Name:</label>
