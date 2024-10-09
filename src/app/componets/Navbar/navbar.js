@@ -67,7 +67,7 @@ export default function Navbar(props) {
                 navClass === "nav-light" ?
                     <Link className="logo" href="/index">
                         <span className="inline-block dark:hidden">
-                            <Image src='/images/logo-dark.png' className="l-dark" width={138} height={24}  alt="" />
+                            <Image src='/images/logo-dark.png' className="l-dark" width={250} height={100}  alt="" />
                             <Image src='/images/logo-light.png' className="l-light" width={138} height={24} alt="" />
                         </span>
                         <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
