@@ -47,7 +47,7 @@ export const accordionData = [
     {
         id: 1,
         title: 'What is a Worksbyte platform?',
-        content: 'An LCNC platform enables users to build applications without extensive coding knowledge. It provides visual interfaces, drag-and-drop features, and pre-built components'
+        content: 'An LCNC platform enables users to build applications without extensive coding knowledge.'
     },
     {
         id: 2,
