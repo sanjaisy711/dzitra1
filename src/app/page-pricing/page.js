@@ -51,7 +51,7 @@ export default function Page(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Choose Pricing Plan</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Workbytes that can provide everything you need to generate awareness, drive traffic, connect.</p>
                 </div>
 
                 <PricingTab/>
@@ -60,9 +60,7 @@ export default function Page(){
             <div className="container relative md:py-24 py-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Frequently Asked Questions</h3>
-
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                </div>
+                 </div>
 
                 <ServiceFaq/>
             </div>
