@@ -47,26 +47,26 @@ export const accordionData = [
     {
         id: 1,
         title: 'What is a Worksbyte platform?',
-        content: 'An LCNC platform enables users to build applications without extensive coding knowledge. It provides visual interfaces, drag-and-drop features, and pre-built components, allowing both technical and non-technical users to create and customize apps quickly and efficiently.'
+        content: 'An LCNC platform enables users to build applications without extensive coding knowledge. It provides visual interfaces, drag-and-drop features, and pre-built components'
     },
     {
         id: 2,
-        title: 'Do I need a designer to use Dzitra ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'Who can use this platform?',
+        content: 'Our platform is designed for everyone—from business professionals and project managers to software developers. '
     },
     {
         id: 3,
-        title: 'What do I need to do to start selling ?',
+        title: 'How does Worksbyte improve business productivity?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
         id: 4,
-        title: 'What happens when I receive an order ?',
+        title: 'Is coding knowledge required to use this platform?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
         id: 5,
-        title: 'How does it work ?',
+        title: 'Can I scale applications built on this platform as my business grows?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
