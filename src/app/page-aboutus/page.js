@@ -125,8 +125,8 @@ export default function Page(){
                     })}
                 </div>
             </div>
-                <div className="container relative md:mt-24 mt-16">
-                    </div>
+    <div className="container relative md:mt-24 mt-16">
+    </div>
        </section>
 
         <Footer/>
