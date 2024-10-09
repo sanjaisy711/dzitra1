@@ -125,7 +125,9 @@ export default function Page(){
                     })}
                 </div>
             </div>
-        </section>
+            <div className="container relative mt-8">
+                    </div>
+       </section>
 
         <Footer/>
         <Switcher/>
