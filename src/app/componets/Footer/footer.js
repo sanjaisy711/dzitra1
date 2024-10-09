@@ -61,7 +61,7 @@ export default function Footer() {
                                         <Link href="/#" className="text-[22px] focus:outline-none">
                                             <Image src="/images/logo-light.png" width={138} height={24} alt="" />
                                         </Link>
-                                        <p className="mt-6 text-gray-300">Dzitra allows you to design dynamic business apps that adapt to your needs. One platform. No-code. Hassle-free</p>
+                                        <p className="mt-6 text-gray-300">Worksbyte lets you transform ideas into powerful Enterprise applications that adapt to your business needs. One platform. No coding. Completely hassle-free.</p>
                                         <ul className="list-none mt-5 space-x-1 space-y-1">
                                            <li className="inline"><Link href="https://www.linkedin.com/company/dzitra/" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
                                             <li className="inline"><Link href="https://www.facebook.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
@@ -115,7 +115,7 @@ export default function Footer() {
                     <div className="container relative text-center">
                         <div className="grid md:grid-cols-2 items-center">
                             <div className="md:text-start text-center">
-                                <p className="mb-0">© 2022 dzitra, Inc. All rights reserved. </p>
+                                <p className="mb-0">© 2024 dgiverse. All rights reserved. </p>
                             </div>
                         </div>
                     </div>
