@@ -38,13 +38,13 @@ export default function Page(){
             <div className="relative grid md:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
                 <div className="md:col-span-6">
                     <div className="md:me-8">
-                        <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white relative">Building Digital <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-600 relative inline-block"><span className="relative text-white">&</span></span> Business Solutions</h4>
-                        <p className="text-slate-400 text-lg max-w-xl">Dzitra allows you to design dynamic business apps that adapt to your needs. One platform. No-code. Hassle-free</p>
+                        <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white relative">Build smarter<span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-600 relative inline-block"><span className="relative text-white">&</span></span> Deploy faster</h4>
+                        <p className="text-slate-400 text-lg max-w-xl">Worksbyte lets you transform ideas into powerful Enterprise applications that adapt to your business needs. One platform. No coding. Completely hassle-free.</p>
 
                         <div className="subcribe-form mt-6 mb-3">
                             <form className="relative max-w-xl">
                                 <input type="email" id="subcribe" name="email" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800" placeholder="Your Email Address :" />
-                                <button type="submit" className="py-2 px-5 inline-flex items-center item-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Try it for free<FaArrowRight className="ms-2 text-[10px]"/></button>
+                                <button type="submit" className="py-2 px-5 inline-flex items-center item-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Schedule a Demo<FaArrowRight className="ms-2 text-[10px]"/></button>
                             </form>
                         </div>
 
@@ -93,7 +93,7 @@ export default function Page(){
                 </div>
                 <h3 className="mb-6 mt-8 md:text-4xl text-3xl md:leading-normal leading-normal font-bold">The #1 choice for low-code and no-code app <br /> development, trusted by discerning <br /> businesses  <span className="after:absolute after:end-0  after:start-0  after:bottom-1 after:lg:h-3 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/30 relative text-indigo-600">worldwide.</span></h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto">Optimize your workflows and keep your employees at peak productivity. Dzitra allows you to build apps that keep up with your business's fast pace and growth without a single line of code</p>
+                <p className="text-slate-400 max-w-xl mx-auto">Enhance your workflows and elevate employee productivity. Worksbyte enables you to effortlessly create apps that match the fast-paced growth of your business—no coding required.</p>
             </div>
 
             <div className="grid mt-8">
@@ -111,7 +111,7 @@ export default function Page(){
             <div className="grid grid-cols-1 pb-8 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Why Everyone Loves Dzitra</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                <p className="text-slate-400 max-w-xl mx-auto">Worksbyte empowers non-technical users to quickly build and adapt applications without coding, fostering collaboration and innovation. With its user-friendly interface, cost-effectiveness, and rapid development capabilities, Worksbyte transforms the way businesses operate and respond to change.</p>
             </div>
 
             <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
@@ -212,8 +212,7 @@ export default function Page(){
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Frequently Asked Questions</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
-            </div>
+               </div>
 
             <div className="relative grid md:grid-cols-12 grid-cols-1 items-center mt-8 gap-[30px]">
                 <div className="md:col-span-6">
@@ -235,7 +234,7 @@ export default function Page(){
                 </div>
 
                 <div className="lg:me-8 order-2 md:order-1 wow animate__animated animate__fadeInLeft" data-wow-delay=".5s">
-                    <h2 className="mb-4 text-2xl leading-normal font-medium">The Dzitra Advantage</h2>
+                    <h2 className="mb-4 text-2xl leading-normal font-medium">The Worksbyte Advantage</h2>
                     <ul className="list-none text-slate-400 mt-4">
                         <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/><i ></i>Choose from 100s of pre-built templates or build your app from scratch</li>
                         <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/><i ></i>Get access to powerful management tools that make handling projects easier</li>
