@@ -125,8 +125,7 @@ export default function Page(){
                     })}
                 </div>
             </div>
-            <div className="container relative ">
-                    </div>
+
        </section>
 
         <Footer/>
