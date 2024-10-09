@@ -191,26 +191,23 @@ export default function Page() {
               data-wow-delay=".3s"
             >
               <h3 className="mb-4 text-2xl leading-normal font-medium">
-                Studio{" "}
+                Dataform{" "}
               </h3>
               <p className="text-slate-400">
-                Optimize your workflows and keep your employees at peak
-                productivity. worksbyte allows you to build apps that keep up
-                with your business's fast pace and growth without a single line
-                of code.
+                Our platform’s Data Form feature allows you to create custom forms effortlessly without coding.With a drag-and-drop interface, it streamlines data collection, validation, and integration into your applications 
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Design, develop, test and deploy apps
+                  <i></i> Simplify workflows
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Get your apps up and running 10X faster
+                  <i></i> Reduce errors
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> tailored to your business
+                  <i></i> Manage data efficiently all hassle-free
                 </li>
               </ul>
 
@@ -250,25 +247,23 @@ export default function Page() {
               data-wow-delay=".5s"
             >
               <h3 className="mb-4 text-2xl leading-normal font-medium">
-                Form & Process
+                Process
               </h3>
               <p className="text-slate-400">
-                Collaborate through employee dashboards, portals and processes.
-                Build your apps from scratch or choose from hundreds of
-                pre-built templates.
+               Our platform's Process feature enables you to design and automate complex business workflows without any coding. With an intuitive drag-and-drop interface, you can map out processes, set triggers, and automate tasks to optimize efficiency and reduce manual effort. 
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Digital Marketing Solutions for Tomorrow
+                  <i></i> Seamlessly integrate data 
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Our Talented & Experienced Marketing Agency
+                  <i></i> Acale as your business grows
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Create your own skin to match your brand
+                  <i></i> Apps to keep your operations running smoothly
                 </li>
               </ul>
 
@@ -308,23 +303,20 @@ export default function Page() {
             >
               <h3 className="mb-4 text-2xl leading-normal font-medium">App</h3>
               <p className="text-slate-400">
-                Optimize your workflows and keep your employees at peak
-                productivity. worksbyte allows you to build apps that keep up
-                with your business's fast pace and growth without a single line
-                of code.
+                Our platform’s App feature allows you to create custom applications tailored to your business needs without any coding. With an intuitive interface and pre-built components, you can design, deploy, and manage apps quickly and efficiently. 
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Design, develop, test and deploy apps
+                  <i></i> Streamline operations
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Get your apps up and running 10X faster
+                  <i></i> Enhance user experiences
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> tailored to your business
+                  <i></i> Adapt to changing requirements
                 </li>
               </ul>
 
@@ -366,22 +358,20 @@ export default function Page() {
                 Board
               </h3>
               <p className="text-slate-400">
-                Collaborate through employee dashboards, portals and processes.
-                Build your apps from scratch or choose from hundreds of
-                pre-built templates.
+               Our platform’s Board feature provides a visual management tool that helps you organize and track your projects effortlessly. You can create boards for various tasks, assign responsibilities, and monitor progress in real-time. 
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Digital Marketing Solutions for Tomorrow
+                  <i></i> Enhance collaboration among team members
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Our Talented & Experienced Marketing Agency
+                  <i></i> Streamline workflows
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <i></i> Create your own skin to match your brand
+                  <i></i> Ensure that your projects stay on track
                 </li>
               </ul>
 
