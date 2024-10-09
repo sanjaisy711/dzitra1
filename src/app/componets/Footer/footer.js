@@ -59,7 +59,7 @@ export default function Footer() {
                                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                                     <div className="lg:col-span-4 md:col-span-12">
                                         <Link href="/#" className="text-[22px] focus:outline-none">
-                                            <Image src="/images/logo-light.png" width={138} height={24} alt="" />
+                                            <Image src="/images/logo-light.png" width={300} height={100} alt="" />
                                         </Link>
                                         <p className="mt-6 text-gray-300">Worksbyte lets you transform ideas into powerful Enterprise applications that adapt to your business needs. One platform. No coding. Completely hassle-free.</p>
                                         <ul className="list-none mt-5 space-x-1 space-y-1">
