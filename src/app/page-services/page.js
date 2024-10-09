@@ -72,12 +72,6 @@ export default function Page(){
                 </div>
             </div>
 
-            <div className="container relative md:mt-24 mt-16">
-                <div className="grid grid-cols-1 pb-8 items-end">
-                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Latest Projects & Works</h3>
-                    <p className="text-slate-400 max-w-xl">Explore and learn more about everything from machine learning and global payments to scaling your team.</p>
-                </div>
-            </div>
 
             <div className="container-fluid relative mt-8">
                 <div className="grid grid-cols-1 mt-8">
@@ -89,8 +83,6 @@ export default function Page(){
                 <div className="grid grid-cols-1 text-center">
                     <h6 className="text-indigo-600 text-sm font-bold mb-2">Available for freelance projects</h6>
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Do you have digital project? <br /> Lets talk.</h3>
-
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                     <div className="mt-6">
                         <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"><FiPhone className="me-1 text-lg"/> Contact us</Link>
