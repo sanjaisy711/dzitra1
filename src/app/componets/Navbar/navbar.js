@@ -70,12 +70,12 @@ export default function Navbar(props) {
                             <Image src='/images/logo-dark.png' className="l-dark" width={250} height={100}  alt="" />
                             <Image src='/images/logo-light.png' className="l-light" width={138} height={24} alt="" />
                         </span>
-                        <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
+                        <Image src='/images/logo-light.png' width={250} height={100} className="hidden dark:inline-block" alt="" />
                     </Link>
                     :
                     <Link className="logo" href="#">
-                        <Image src='/images/logo-dark.png' width={138} height={24} className="inline-block dark:hidden" alt="" />
-                        <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
+                        <Image src='/images/logo-dark.png' width={250} height={100} className="inline-block dark:hidden" alt="" />
+                        <Image src='/images/logo-light.png' width={250} height={100} className="hidden dark:inline-block" alt="" />
                     </Link>
             }
 
