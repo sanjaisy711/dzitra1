@@ -74,7 +74,7 @@ export default function Page(){
                     <div className="lg:col-span-7 md:col-span-6">
                         <div className="lg:ms-5">
                            <Counter/>
-                            <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Meet Dzitra changing the world</h3>
+                            <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Meet Workbytes changing the world</h3>
 
                             <p className="text-slate-400 max-w-xl">Design tailor-made applications from scratch, or use pre-built templates that suit your needs with minimal coding. Be it employee portals or operational dashboards or specific workflows to optimise internal processes, cut down your development time greatly.</p>
 
@@ -93,54 +93,11 @@ export default function Page(){
 
         <KeyFeature btnFill={true}/>
 
-        <section className="relative md:py-24 py-16 md:mt-24 mt-16 bg-gray-50 dark:bg-slate-800 md:pt-0 pt-0">
-            <div className="container relative">
-                <div className="grid grid-cols-1 justify-center">
-                    <div className="relative z-1">
-                        <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
-                            <div className="lg:col-start-2 lg:col-span-10">
-                                <div className="relative">
-                                    <Image src="/images/cta-bg.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-md shadow-lg" alt="" />
-                                    <VideoModal/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="content md:mt-8">
-                            <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
-                                <div className="lg:col-start-2 lg:col-span-10">
-                                    <div className="grid md:grid-cols-2 grid-cols-1 items-center">
-                                        <div className="mt-8">
-                                            <div className="section-title text-md-start">
-                                                <h6 className="text-white/50 text-lg font-semibold">Team</h6>
-                                                <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mt-2">Meet Experience <br /> Team Member</h3>
-                                            </div>
-                                        </div>
-
-                                        <div className="mt-8">
-                                            <div className="section-title text-md-start">
-                                                <p className="text-white/50 max-w-xl mx-auto mb-2">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                                                <Link href="#"  className="text-white flex items-center">Read More<MdKeyboardArrowRight className="text-xl ms-1"/></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-indigo-500 to-indigo-600"></div>
-        </section>
-
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800 md:pb-0 pb-0" id="team">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Our Professional Team</h3>
-
-                    <p className="text-slate-400 max-w-xl mx-auto">Start working with Dzitra that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                </div>
+    </div>
 
                 <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
                     {teamData.slice(0,4).map((item,index)=>{
@@ -169,16 +126,7 @@ export default function Page(){
                 </div>
             </div>
 
-            <div className="container relative md:mt-24 mt-16">
-                <div className="grid md:grid-cols-12 grid-cols-1 items-center">
-                    <div className="lg:col-span-5 md:col-span-6 md:order-1 order-2">
-                        <div className="relative overflow-hidden after:content-[''] after:absolute after:h-40 after:w-40 after:bg-red-600/5 after:top-5 after:start-0 after:end-0 after:mx-auto after:-z-0 after:rounded-3xl after:animate-[spin_10s_linear_infinite]">
-                            <Image src="/images/hero2.png" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="relative z-1" alt="" />
-                        </div>
-                    </div>
-
-                    <div className="lg:col-span-7 md:col-span-6 md:order-2 order-1">
-                       <Clients/>
+                
                     </div>
                 </div>
             </div>
