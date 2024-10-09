@@ -28,13 +28,13 @@ export default function Page(){
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
                     <h3 className="mb-6 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">About Us</h3>
 
-                    <p className="text-slate-300 text-lg max-w-xl mx-auto">Optimize your workflows and keep your employees at peak productivity. Dzitra allows you to build apps that keep up with your business's fast pace and growth without a single line of code.</p>
+                    <p className="text-slate-300 text-lg max-w-xl mx-auto">Enhance your workflows and elevate employee productivity. Worksbyte enables you to effortlessly create apps that match the fast-paced growth of your business—no coding required.</p>
                 </div>
             </div>
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/index">Dzitra</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/index">Worksbyte</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="#" >Company</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
@@ -76,7 +76,7 @@ export default function Page(){
                            <Counter/>
                             <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Meet Workbytes changing the world</h3>
 
-                            <p className="text-slate-400 max-w-xl">Design tailor-made applications from scratch, or use pre-built templates that suit your needs with minimal coding. Be it employee portals or operational dashboards or specific workflows to optimise internal processes, cut down your development time greatly.</p>
+                            <p className="text-slate-400 max-w-xl">Worksbyte lets you transform ideas into powerful Enterprise applications that adapt to your business needs. One platform. No coding. Completely hassle-free.</p>
 
                             <div className="mt-6">
                                 <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
