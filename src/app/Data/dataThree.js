@@ -1000,32 +1000,32 @@ export const servicesTwo = [
     {
         icon:FiAirplay,
         title:"Data Form",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        desc:"Our platform’s Data Form feature allows you to create custom forms effortlessly without coding."
     },
     {
         icon:MdApi,
         title:"Process",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        desc:"Our platform's Process feature enables you to design and automate complex business workflows without any coding."
     },
     {
         icon:TbCameraPlus,
         title:"Board",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        desc:"Our platform’s Board feature provides a visual management tool that helps you organize and track your projects effortlessly. "
     },
     {
         icon:PiFlowerLight,
         title:"App",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        desc:"Our platform’s App feature allows you to create custom applications tailored to your business needs without any coding."
     },
     {
         icon:HiOutlineCog6Tooth,
         title:"Intergration",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        desc:"Our platform offers robust Integration capabilities that allow you to connect seamlessly with your existing tools and applications. "
     },
     {
         icon:FaRegComment,
-        title:"24/7 Support",
-        desc:"The phrasal sequence of the is now so that many campaign and benefit"
+        title:"Analytics",
+        desc:"Our platform's Analytics feature empowers you to turn data into actionable insights effortlessly."
     },
 ]
 export const lowClient = [
