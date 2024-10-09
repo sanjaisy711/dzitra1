@@ -12,7 +12,6 @@ const CompanyLogo = dynamic(() => import("./componets/companyLogo"));
 const GetInTuct = dynamic(() => import("./componets/getInTuch"));
 import SaasCounter from "./componets/counter/saasCounter";
 import VideoModal from "./componets/videoModal/videoModal";
-import ClientsOne from "./componets/clientsOne";
 import AccordionTwo from "./componets/accordianTwo";
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
@@ -397,10 +396,6 @@ export default function Page() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className=" md:mt-24 mt-16">
-          <ClientsOne />
         </div>
 
         <div className="container relative md:mt-24 mt-16">
