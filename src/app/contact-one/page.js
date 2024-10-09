@@ -84,7 +84,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">First Name:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder=" First Name :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -93,7 +93,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">Last Name:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder=" Last Name :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -111,10 +111,10 @@ export default function Page(){
                                     </div>
                                    <div className="lg:col-span-6 mb-5">
                                             <div className="text-start">
-                                                <label htmlFor="name" className="font-semibold">Company:</label>
+                                                <label htmlFor="name" className="font-semibold">Company Name:</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder=" Company Name :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -123,7 +123,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">Phone :</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Phone :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +133,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">Country  :</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Country :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -142,7 +142,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold"> Job Role :</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Job Role :" />
                                                 </div>
                                             </div>
                                         </div>
@@ -151,7 +151,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">What’s your Industry  :</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="What’s your Industry:" />
                                                 </div>
                                             </div>
                                         </div>
@@ -160,7 +160,7 @@ export default function Page(){
                                                 <label htmlFor="name" className="font-semibold">Reason for Inquiry  :</label>
                                                 <div className="form-icon relative mt-2">
                                                     <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
-                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                    <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Reason for Inquiry :" />
                                                 </div>
                                             </div>
                                         </div>
