@@ -71,17 +71,17 @@ export const accordionData = [
     },
     {
         id: 6,
-        title: 'Do I need a designer to use Dzitra ?',
+        title: 'What types of applications can I build using your platform?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
         id: 7,
-        title: 'What do I need to do to start selling ?',
+        title: 'How secure are the applications built on your platform?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     },
     {
         id: 8,
-        title: 'What happens when I receive an order ?',
+        title: 'Can the platform integrate with other business tools?',
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     }
 ]
