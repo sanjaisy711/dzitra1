@@ -45,27 +45,6 @@ export default function Page(){
             </div>
         </div>
 
-        <section className="relative py-16 bg-gray-50 dark:bg-slate-800">
-            <div className="container relative">
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
-                    {startAbout.map((item,index)=>{
-                        let Icons = item.icon
-                        return(
-                            <div key={index} className="flex">
-                                <div className="flex align-middle justify-center items-center min-w-[56px] h-[56px] bg-indigo-600/5 border-2 border-indigo-600/20 text-indigo-600 rounded-lg text-xl shadow-sm dark:shadow-gray-800">
-                                    <Icons className='w-6 h-6'/>
-                                </div>
-
-                                <div className="content ms-6">
-                                    <Link href="#" className="text-lg font-medium hover:text-indigo-600">{item.title}</Link>
-                                    <p className="text-slate-400 mt-3">{item.desc}</p>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-        </section>
 
         <section className="relative md:py-24 py-16">
             <div className="container relative">
