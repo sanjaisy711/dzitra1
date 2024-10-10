@@ -81,7 +81,6 @@ export default function Page(){
 
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1 text-center">
-                    <h6 className="text-indigo-600 text-sm font-bold mb-2">Available for freelance projects</h6>
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Do you have digital project? <br /> Lets talk.</h3>
 
                     <div className="mt-6">
