@@ -112,7 +112,7 @@ export default function Navbar(props) {
                         <Link href="page-aboutus">About Us</Link>
                     </li>
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact</Link></li>
-                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="auth-login" className="sub-menu-item">Get started</Link></li>
+                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="/auth-signup" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"><FiPhone className="me-1 text-lg"/> Get Started</Link>
                  </ul>
             </div>
         </div >
