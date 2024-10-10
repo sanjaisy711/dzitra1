@@ -93,41 +93,6 @@ export default function Page(){
 
         <KeyFeature btnFill={true}/>
 
-        <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800 md:pb-0 pb-0" id="team">
-            <div className="container relative">
-                <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Our Professional Team</h3>
-    </div>
-
-                <div className="grid md:grid-cols-12 grid-cols-1 mt-8 gap-[30px]">
-                    {teamData.slice(0,4).map((item,index)=>{
-                        return(
-                            <div key={index} className="lg:col-span-3 md:col-span-6">
-                                <div className="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
-                                    <Image src={item.image} width={96} height={96} className="size-24 rounded-full shadow-md dark:shadow-gray-800" alt="" />
-    
-                                    <div className="content mt-4">
-                                        <Link href="#" className="text-lg font-medium hover:text-indigo-600 block">{item.name}</Link>
-                                        <span className="text-slate-400 block">{item.title}</span>
-    
-                                        <p className="text-slate-400 mt-4">{item.desc}</p>
-    
-                                        <ul className="list-none mt-4 space-x-1">
-                                            <li className="inline"><Link href="#" className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Facebook className="size-4"></Icon.Facebook></Link></li>
-                                            <li className="inline"><Link href="#" className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Instagram className="size-4"></Icon.Instagram></Link></li>
-                                            <li className="inline"><Link href="#" className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Twitter className="size-4"></Icon.Twitter></Link></li>
-                                            <li className="inline"><Link href="#"  className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Linkedin className="size-4"></Icon.Linkedin></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-    <div className="container relative md:mt-24 mt-16">
-    </div>
-       </section>
 
         <Footer/>
         <Switcher/>
