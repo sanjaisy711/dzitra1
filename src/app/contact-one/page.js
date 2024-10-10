@@ -132,7 +132,7 @@ export default function Page(){
                                             <div className="text-start">
                                                 <label htmlFor="name" className="font-semibold">Country  :</label>
                                                 <div className="form-icon relative mt-2">
-                                                    <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
+                                                    <Icon.Map className="size-4 absolute top-3 start-4"></Icon.Map>
                                                     <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Country :" />
                                                 </div>
                                             </div>
@@ -141,7 +141,7 @@ export default function Page(){
                                             <div className="text-start">
                                                 <label htmlFor="name" className="font-semibold"> Job Role :</label>
                                                 <div className="form-icon relative mt-2">
-                                                    <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
+                                                    <Icon.Users className="size-4 absolute top-3 start-4"></Icon.Users>
                                                     <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Job Role :" />
                                                 </div>
                                             </div>
@@ -150,7 +150,7 @@ export default function Page(){
                                             <div className="text-start">
                                                 <label htmlFor="name" className="font-semibold">What’s your Industry  :</label>
                                                 <div className="form-icon relative mt-2">
-                                                    <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
+                                                    <Icon.globe className="size-4 absolute top-3 start-4"></Icon.globe>
                                                     <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="What’s your Industry:" />
                                                 </div>
                                             </div>
@@ -159,7 +159,7 @@ export default function Page(){
                                             <div className="text-start">
                                                 <label htmlFor="name" className="font-semibold">Reason for Inquiry  :</label>
                                                 <div className="form-icon relative mt-2">
-                                                    <Icon.User className="size-4 absolute top-3 start-4"></Icon.User>
+                                                    <Icon.Inbox className="size-4 absolute top-3 start-4"></Icon.Inbox>
                                                     <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Reason for Inquiry :" />
                                                 </div>
                                             </div>
