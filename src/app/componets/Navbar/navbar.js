@@ -112,9 +112,8 @@ export default function Navbar(props) {
                         <Link href="page-aboutus">About Us</Link>
                     </li>
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact</Link></li>
-                    <li className={manu === "/auth-login" || "" ? "active" : ""}><Link href="auth-login" className="sub-menu-item">login</Link></li>
-                    <div _ngcontent-iic-c126="" class="col-md-6"><button _ngcontent-iic-c126="" routerlinkactive="router-link-active" class="getstarted-btn" tabindex="0">Get started - It’s Free</button></div>
-                </ul>
+                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="auth-login" className="sub-menu-item">Get started - It’s Free</Link></li>
+                 </ul>
             </div>
         </div >
     </nav >
