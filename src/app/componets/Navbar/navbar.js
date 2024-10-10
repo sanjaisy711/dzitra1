@@ -113,6 +113,7 @@ export default function Navbar(props) {
                     </li>
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact</Link></li>
                     <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item"> Get Started</Link></li>
+             </ul> 
             </div>
         </div >
     </nav >
