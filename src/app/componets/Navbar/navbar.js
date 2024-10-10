@@ -95,24 +95,24 @@ export default function Navbar(props) {
            
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
-                    <li className={manu === "/index" || "" ? "active" : ""}>
+                    <li className={manu === "/home" || "" ? "active" : ""}>
                         <Link href="index" >Home</Link>
                     </li>
-                    <li className={manu === "/page-services" || "" ? "active" : ""}>
+                    <li className={manu === "/features" || "" ? "active" : ""}>
                         <Link href="page-services" >Features</Link>
                     </li>
 
-                    <li className={manu === "/page-pricing" || "" ? "active" : ""}><Link href="page-pricing">Pricing</Link>
+                    <li className={manu === "/pricing" || "" ? "active" : ""}><Link href="page-pricing">Pricing</Link>
                     </li>
 
                     <li className={manu === "/blog" || "" ? "active" : ""}><Link href="blog">Blog</Link>
                     </li>
 
-                    <li className={manu === "/page-aboutus" || "" ? "active" : ""}>
+                    <li className={manu === "/aboutus" || "" ? "active" : ""}>
                         <Link href="page-aboutus">About Us</Link>
                     </li>
-                    <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact</Link></li>
-                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item"> Get Started</Link></li>
+                    <li className={manu === "/contactus" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact Us</Link></li>
+                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><Link href="auth-signup" className="sub-menu-item"> Get Started</Link></li>
              </ul> 
             </div>
         </div >
