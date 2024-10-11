@@ -6,7 +6,7 @@ export default function AccordionTwo(){
     let [activeIndex, setActiveIndex] = useState(0);
 
     let toggleAccordion = (index) => {
-        if (state.activeIndex === index) {
+        if (activeIndex === index) {
             setActiveIndex(0);
         } else {
             setActiveIndex(index);
@@ -27,7 +27,7 @@ export default function AccordionTwo(){
                                                 </svg>
                                             </button>
                                         </h2>
-                                        {state.activeIndex === index && (
+                                        {activeIndex === index && (
                                             <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
                                                 <div className="p-5">
                                                     <p className="text-slate-400 dark:text-gray-400">{item.content}</p>
