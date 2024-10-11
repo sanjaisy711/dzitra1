@@ -65,7 +65,7 @@ export default function Navbar(props) {
         <div className="container relative">
             {
                 navClass === "nav-light" ?
-                    <Link className="logo" href="#">
+                    <Link className="logo" href="index-modern-saas">
                         <span className="inline-block dark:hidden">
                             <Image src='/images/logo-dark.png' className="l-dark" width={200} height={100}  alt="" />
                             <Image src='/images/logo-light.png' className="l-light" width={200} height={100} alt="" />
@@ -73,7 +73,7 @@ export default function Navbar(props) {
                         <Image src='/images/logo-light.png' width={200} height={100} className="hidden dark:inline-block" alt="" />
                     </Link>
                     :
-                    <Link className="logo" href="#">
+                    <Link className="logo" href="index-modern-saas">
                         <Image src='/images/logo-dark.png' width={200} height={100} className="inline-block dark:hidden" alt="" />
                         <Image src='/images/logo-light.png' width={200} height={100} className="hidden dark:inline-block" alt="" />
                     </Link>
@@ -96,7 +96,7 @@ export default function Navbar(props) {
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
                     <li className={manu === "#" || "" ? "active" : ""}>
-                        <Link href="#" >Home</Link>
+                        <Link href="index-modern-saas" >Home</Link>
                     </li>
                     <li className={manu === "/features" || "" ? "active" : ""}>
                         <Link href="page-services" >Features</Link>
