@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 
-import { accordionData } from '../Data/dataTwo';
+import { accordionData1 } from '../Data/dataTwo';
 
 export default function ServiceFaq(){
     let [activeIndex, setActiveIndex] = useState(1);
@@ -14,8 +14,8 @@ export default function ServiceFaq(){
             setActiveIndex(index);
         }
     }
-    const accordionData1 = accordionData.filter((x) => x.id < 5);
-    const accordionData2 = accordionData.filter((x) => x.id > 4)
+    const accordionData1 = accordionData1.filter((x) => x.id < 5);
+    const accordionData2 = accordionData1.filter((x) => x.id > 4)
     return(
         <div id="accordion-collapse" data-accordion="collapse" className="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
             <div>
@@ -32,7 +32,7 @@ export default function ServiceFaq(){
                         {activeIndex === item.id && (
                             <div>
                                 <div className="p-5">
-                                    <p className="text-slate-400 dark:text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                    <p className="text-slate-400 dark:text-gray-400">{item.content}</p>
                                 </div>
                             </div>
                         )}
