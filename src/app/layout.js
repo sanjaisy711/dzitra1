@@ -40,8 +40,8 @@ const alex = Alex_Brush({
 
 
 export const metadata = {
-  title: 'Dzitra - Next Js Multipurpose Landing & Admin Dashboard Template',
-  description: 'Dzitra - Next Js Multipurpose Landing & Admin Dashboard Template',
+  title: 'Worksbyte - One platform. No-code. Hassle-free',
+  description: 'Worksbyte - One platform. No-code. Hassle-free',
 }
 
 export default function RootLayout({ children }) {
