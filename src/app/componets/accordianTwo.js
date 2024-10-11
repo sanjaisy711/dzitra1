@@ -37,7 +37,6 @@ export default function AccordionTwo(){
                                     </div>
                                 ))}
                             </div>
-        </div>
         </>
     )
 }
