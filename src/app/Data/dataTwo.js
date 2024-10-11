@@ -85,7 +85,7 @@ export const accordionData = [
         content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
     }
 ]
-export const accordionData1 = [
+export const accordionDataprice = [
     {
         id: 1,
         title: 'What pricing plans do you offer?',
