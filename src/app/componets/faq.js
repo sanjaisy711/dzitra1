@@ -2,6 +2,7 @@
 import React, {useReducer} from 'react'
 import { Link as Link2 } from 'react-scroll';
 import { accordionData } from '../Data/dataTwo';
+import { accordionData1 } from '../Data/dataTwo';
 
 export default function Faq(){
     const initialState = {
