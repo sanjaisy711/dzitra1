@@ -2,7 +2,7 @@
 import React, {useReducer} from 'react'
 import { Link as Link2 } from 'react-scroll';
 import { accordionData } from '../Data/dataTwo';
-import { accordionData1 } from '../Data/dataTwo';
+import { accordionDataprice } from '../Data/dataTwo';
 
 export default function Faq(){
     const initialState = {
@@ -88,7 +88,7 @@ export default function Faq(){
                             <h5 className="text-2xl font-semibold">Payments Questions</h5>
 
                             <div id="accordion-collapsethree" data-accordion="collapse" className="mt-6">
-                                {accordionData1.slice(0,8).map((item, index) => (
+                                {accordionDataprice.slice(0,8).map((item, index) => (
                                     <div key={index} className={`relative shadow dark:shadow-gray-700 rounded-md overflow-hidden mt-4`}>
                                         <h2 className="text-base font-medium">
                                             <button onClick={() => toggleAccordion('payments', index)} type="button" className={`${state.activeIndex === index ? 'flex justify-between items-center p-5 w-full font-medium text-start bg-gray-50 dark:bg-slate-800 text-indigo-600' : 'flex justify-between items-center p-5 w-full font-medium text-start text-dark dark:text-white'}`}>
