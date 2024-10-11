@@ -52,41 +52,40 @@ export const accordionData = [
     {
         id: 2,
         title: 'Who can use this platform?',
-        content: 'Our platform is designed for everyone—from business professionals and project managers to software developers. '
+        content: 'Our platform is designed for everyone—from business professionals and project managers to software developers. No prior programming knowledge is required, so anyone looking to automate workflows, design custom apps, or streamline processes can benefit from it. '
     },
     {
         id: 3,
         title: 'How does Worksbyte improve business productivity?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'Worksbyte platforms speed up application development by reducing the time and complexity involved in coding. This allows businesses to launch solutions faster, automate routine tasks, and respond quickly to changes, thereby improving overall productivity.'
     },
     {
         id: 4,
         title: 'Is coding knowledge required to use this platform?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'No, coding knowledge is not necessary. Our platform is intuitive and provides a drag-and-drop interface, along with pre-built templates, so you can create apps without writing a single line of code.'
     },
     {
         id: 5,
         title: 'Can I scale applications built on this platform as my business grows?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'Absolutely! Applications built with our platform are flexible and scalable, ensuring that they can grow and adapt alongside your business needs.'
     },
     {
         id: 6,
         title: 'What types of applications can I build using your platform?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'You can build a wide range of applications, including business process automation tools, customer relationship management (CRM) systems, project management apps, data collection forms, dashboards, and more. The possibilities are vast and customizable.'
     },
     {
         id: 7,
         title: 'How secure are the applications built on your platform?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'We prioritize security at every level. Our platform ensures data encryption, secure APIs, and compliance with industry-standard protocols, so the applications you build are safe and secure. '
     },
     {
         id: 8,
         title: 'Can the platform integrate with other business tools?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
     }
 ]
-export const masonryData = [
-    {
+export const masonryData = [  
         id:1,
         image:"/images/blog/01.jpg",
         title:'Design your apps in your own way',
