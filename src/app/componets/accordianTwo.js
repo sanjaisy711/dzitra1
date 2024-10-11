@@ -6,7 +6,7 @@ export default function AccordionTwo(){
     let [activeIndex, setActiveIndex] = useState(0);
 
     let toggleAccordion = (index) => {
-        if (activeIndex === index) {
+        if (state.activeIndex === index) {
             setActiveIndex(0);
         } else {
             setActiveIndex(index);
