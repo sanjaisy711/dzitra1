@@ -26,6 +26,13 @@ export default function AccordionTwo(){
                                 </svg>
                             </button>
                         </h2>
+                         {state.activeIndex === index && (
+                                            <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
+                                                <div className="p-5">
+                                                    <p className="text-slate-400 dark:text-gray-400">{item.content}</p>
+                                                </div>
+                                            </div>
+                            )}
                     </div>
 
                 ))}
