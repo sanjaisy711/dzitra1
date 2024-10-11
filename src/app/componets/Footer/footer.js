@@ -48,6 +48,12 @@ export default function Footer() {
             liClass: 'mt-[10px]',
 
         },
+        {
+            route: '/helpcenter-faqs',
+            title: 'FAQS',
+            liClass: 'mt-[10px]',
+
+        },
     ]
     return (
         <div>
