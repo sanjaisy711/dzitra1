@@ -26,13 +26,6 @@ export default function AccordionTwo(){
                                 </svg>
                             </button>
                         </h2>
-                        {activeIndex === index && (
-                            <div>
-                                <div className="p-5">
-                                    <p className="text-slate-400 dark:text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                </div>
-                            </div>
-                        )}
                     </div>
 
                 ))}
