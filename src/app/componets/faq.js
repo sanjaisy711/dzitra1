@@ -50,7 +50,7 @@ export default function Faq(){
                         <div className="rounded-md shadow dark:shadow-gray-800 p-6 sticky top-20">
                             <ul className=" list-none sidebar-nav mb-0 py-0" id="navmenu-nav">
                                 <li className="navbar-item p-0"><Link2 to="tech"  spy={true} activeClass="active"
-                                    smooth={true} className="text-base font-medium navbar-link">Buying Questions</Link2></li>
+                                    smooth={true} className="text-base font-medium navbar-link">Product Questions</Link2></li>
                                 <li className="navbar-item mt-3 p-0"><Link2 to="payment"  spy={true} activeClass="active"
                                     smooth={true} className="text-base font-medium navbar-link">Payments Questions</Link2></li>
                             </ul>
@@ -59,7 +59,7 @@ export default function Faq(){
 
                     <div className="lg:col-span-8 md:col-span-7">
                         <div id="tech">
-                            <h5 className="text-2xl font-semibold">Buying Product</h5>
+                            <h5 className="text-2xl font-semibold">Product Question</h5>
 
                             <div id="accordion-collapseone" data-accordion="collapse" className="mt-6">
                                 {accordionData.slice(0,8).map((item, index) => (
