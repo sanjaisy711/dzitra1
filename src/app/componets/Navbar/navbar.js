@@ -114,7 +114,7 @@ export default function Navbar(props) {
                     <li className={manu === "/contactus" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact Us</Link></li>
                     <li className={manu === "/auth-signup" || "" ? "active" : ""}><button
                       type="submit" Link href="auth-signup"
-                      className= "py-2 px-5 inline-flex items-center item-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">
+                      className= "py-2 px-5 inline-flex sub-menu-item items-center item-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">
                       Get Started
                     </button> </li>
              </ul> 
