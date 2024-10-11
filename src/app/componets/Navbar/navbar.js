@@ -112,11 +112,7 @@ export default function Navbar(props) {
                         <Link href="page-aboutus">About Us</Link>
                     </li>
                     <li className={manu === "/contactus" || "" ? "active" : ""}><Link href="contact-one" className="sub-menu-item">Contact Us</Link></li>
-                    <li className={manu === "/auth-signup" || "" ? "active" : ""}><button
-                      type="submit" Link href="auth-signup"
-                      class="menu-item nav-bar-cta">
-                      Get Started
-                    </button> </li>
+                     <li className={manu === "/contactus" || "" ? "active" : ""}><button> <Link href="contact-one" className="sub-menu-item">Contact Us</Link></button></li>
              </ul> 
             </div>
         </div >
