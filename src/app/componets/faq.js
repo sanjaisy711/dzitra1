@@ -33,11 +33,6 @@ export default function Faq(){
                     ...state,
                     activePayment: action.payload.index
                 };
-            case 'support':
-                return {
-                    ...state,
-                    activeSupport: action.payload.index
-                };
             default:
                 return state
         }
