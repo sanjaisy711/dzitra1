@@ -96,7 +96,7 @@ export default function Navbar(props) {
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
                     <li className={manu === "#" || "" ? "active" : ""}>
-                        <Link href="index" >Home</Link>
+                        <Link href="#" >Home</Link>
                     </li>
                     <li className={manu === "/features" || "" ? "active" : ""}>
                         <Link href="page-services" >Features</Link>
