@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react'
 
-import { accordionData1 } from '../Data/dataTwo';
+import { accordionData } from '../Data/dataTwo';
 
 export default function ServiceFaq(){
     let [activeIndex, setActiveIndex] = useState(1);
@@ -14,8 +14,8 @@ export default function ServiceFaq(){
             setActiveIndex(index);
         }
     }
-    const accordionData1 = accordionData1.filter((x) => x.id < 5);
-    const accordionData2 = accordionData1.filter((x) => x.id > 4)
+    const accordionData1 = accordionData.filter((x) => x.id < 5);
+    const accordionData2 = accordionData.filter((x) => x.id > 4)
     return(
         <div id="accordion-collapse" data-accordion="collapse" className="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
             <div>
