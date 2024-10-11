@@ -89,42 +89,42 @@ export const accordionData1 = [
     {
         id: 1,
         title: 'What pricing plans do you offer?',
-        content: ' An LCNC platform enables users to build applications without extensive coding knowledge. It provides visual interfaces, drag-and-drop features, and pre-built components, allowing both technical and non-technical users to create and customize apps quickly and efficiently.'
+        content: ' We offer a range of pricing plans to suit various business needs, including Basic, Pro, and Enterprise tiers. Each plan comes with different features and levels of support, allowing you to choose the best fit for your organization.'
     },
     {
         id: 2,
-        title: 'Who can use this platform?',
-        content: 'Our platform is designed for everyone—from business professionals and project managers to software developers. No prior programming knowledge is required, so anyone looking to automate workflows, design custom apps, or streamline processes can benefit from it. '
+        title: 'Is there a free trial available?',
+        content: 'Yes, we provide a free trial for our platform, allowing you to explore features and capabilities before committing to a paid plan. This trial typically lasts for 14 days.'
     },
     {
         id: 3,
-        title: 'How does Worksbyte improve business productivity?',
-        content: 'Worksbyte platforms speed up application development by reducing the time and complexity involved in coding. This allows businesses to launch solutions faster, automate routine tasks, and respond quickly to changes, thereby improving overall productivity.'
+        title: 'Are there any hidden fees?',
+        content: 'No, we believe in transparency. Our pricing structure is straightforward, and you will only be charged the amount specified in your chosen plan. Additional services, if applicable, will be clearly outlined.'
     },
     {
         id: 4,
-        title: 'Is coding knowledge required to use this platform?',
-        content: 'No, coding knowledge is not necessary. Our platform is intuitive and provides a drag-and-drop interface, along with pre-built templates, so you can create apps without writing a single line of code.'
+        title: 'Can I change my pricing plan later?',
+        content: 'Absolutely! You can upgrade or downgrade your plan at any time to better suit your needs. Simply go to your account settings, and you can make changes easily.'
     },
     {
         id: 5,
-        title: 'Can I scale applications built on this platform as my business grows?',
-        content: 'Absolutely! Applications built with our platform are flexible and scalable, ensuring that they can grow and adapt alongside your business needs.'
+        title: 'What payment methods do you accept?',
+        content: 'We accept various payment methods, including credit/debit cards, PayPal, and bank transfers. You can choose the payment option that is most convenient for you.'
     },
     {
         id: 6,
-        title: 'What types of applications can I build using your platform?',
-        content: 'You can build a wide range of applications, including business process automation tools, customer relationship management (CRM) systems, project management apps, data collection forms, dashboards, and more. The possibilities are vast and customizable.'
+        title: 'Do you offer discounts for annual subscriptions?',
+        content: 'Yes, we provide discounts for customers who choose annual subscriptions over monthly payments. This can save you money in the long run.'
     },
     {
         id: 7,
-        title: 'How secure are the applications built on your platform?',
-        content: 'We prioritize security at every level. Our platform ensures data encryption, secure APIs, and compliance with industry-standard protocols, so the applications you build are safe and secure. '
+        title: 'What happens if I exceed the limits of my plan?',
+        content: 'If you exceed the limits of your plan, you will be notified, and you can choose to upgrade to a higher tier or continue using your current plan with a temporary overage fee. '
     },
     {
         id: 8,
-        title: 'Can the platform integrate with other business tools?',
-        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
+        title: 'Is customer support included in all pricing plans?',
+        content: 'Yes, all our pricing plans include customer support. However, the level of support may vary depending on your chosen plan, with higher tiers offering priority support.'
     }
 ]
 export const masonryData = [  
