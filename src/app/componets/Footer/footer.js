@@ -50,7 +50,7 @@ export default function Footer() {
         },
         {
             route: '/helpcenter-faqs',
-            title: 'FAQS',
+            title: 'FAQ',
             liClass: 'mt-[10px]',
 
         },
