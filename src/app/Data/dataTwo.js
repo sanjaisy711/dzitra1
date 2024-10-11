@@ -86,7 +86,7 @@ export const accordionData = [
     }
 ]
 export const masonryData = [  
-        id:1
+    {   id: 1,
         image:"/images/blog/01.jpg",
         title:'Design your apps in your own way',
         desc:'The phrasal sequence of the is now so that many campaign and benefit',
