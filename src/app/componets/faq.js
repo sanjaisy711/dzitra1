@@ -57,7 +57,7 @@ export default function Faq(){
                             <h5 className="text-2xl font-semibold">Product Question</h5>
 
                             <div id="accordion-collapseone" data-accordion="collapse" className="mt-6">
-                                {accordionData.slice(0,8).map((item, index) => (
+                                {accordionData.slice(0,15).map((item, index) => (
                                     <div key={index} className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
                                         <h2 className="text-base font-semibold" id="accordion-collapse-heading-1">
                                             <button onClick={() => toggleAccordion('active', index)} type="button"
@@ -88,7 +88,7 @@ export default function Faq(){
                             <h5 className="text-2xl font-semibold">Payments Questions</h5>
 
                             <div id="accordion-collapsethree" data-accordion="collapse" className="mt-6">
-                                {accordionDataprice.slice(0,8).map((item, index) => (
+                                {accordionDataprice.slice(0,10).map((item, index) => (
                                     <div key={index} className={`relative shadow dark:shadow-gray-700 rounded-md overflow-hidden mt-4`}>
                                         <h2 className="text-base font-medium">
                                             <button onClick={() => toggleAccordion('payments', index)} type="button" className={`${state.activeIndex === index ? 'flex justify-between items-center p-5 w-full font-medium text-start bg-gray-50 dark:bg-slate-800 text-indigo-600' : 'flex justify-between items-center p-5 w-full font-medium text-start text-dark dark:text-white'}`}>
