@@ -86,14 +86,39 @@ export const accordionData = [
     },
     {
         id: 9,
-        title: 'Can the platform integrate with other business tools?',
-        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
-    }
-    {
-        id: ,
-        title: 'Can the platform integrate with other business tools?',
-        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
+        title: 'How fast can I launch an app using this platform?',
+        content: 'Depending on the complexity of your app, you can launch it in a matter of hours or days, as the platform significantly reduces traditional development time. Simple apps can be deployed almost immediately after creation.'
     },
+    {
+        id: 10,
+        title: 'Is there customer support available if I need help?',
+        content: 'Yes, we offer comprehensive customer support, including live chat, email support, and a knowledge base with tutorials to guide you through any issues or questions.'
+    },
+    {
+        id: 11,
+        title: 'Can I make changes to my apps after they’ve been deployed?',
+        content: 'Yes, you can easily update or modify your applications post-deployment. Our platform allows you to make changes quickly without downtime or complex redevelopment processes.'
+    },
+    {
+        id: 12,
+        title: 'Do you offer any templates or pre-built components?',
+        content: 'Yes, our platform includes a variety of templates and pre-built components to help you get started. These templates cover common business use cases, allowing you to create customized apps even faster.'
+    },
+    {
+        id: 13,
+        title: 'What pricing plans do you offer?',
+        content: 'We offer a range of pricing plans to fit different business needs, from small startups to large enterprises. Please visit our pricing page or contact our sales team for more information about which plan is right for you.'
+    },
+     {
+        id: 14,
+        title: 'How does your platform handle app performance under heavy usage?',
+        content: 'Our platform is built to handle high traffic and large-scale applications. We use efficient infrastructure and optimization techniques to ensure that your apps perform reliably, even under heavy usage.'
+    },
+    {
+        id: 15,
+        title: 'Is there a free trial available?',
+        content: 'Yes, we offer a free trial that allows you to explore the platform and build your first app at no cost. This way, you can experience the benefits of LCNC development before committing to a paid plan.'
+    }
     
 ]
 export const accordionDataprice = [
@@ -136,7 +161,18 @@ export const accordionDataprice = [
         id: 8,
         title: 'Is customer support included in all pricing plans?',
         content: 'Yes, all our pricing plans include customer support. However, the level of support may vary depending on your chosen plan, with higher tiers offering priority support.'
+    },
+    {
+        id: 9,
+        title: 'Can I request a custom pricing plan?',
+        content: 'For larger organizations or specific needs, we can discuss custom pricing plans. Please contact our sales team for more information.'
+    },
+    {
+        id: 10,
+        title: 'How do I cancel my subscription?',
+        content: 'You can cancel your subscription at any time through your account settings. Upon cancellation, you will continue to have access to your plan until the end of your billing cycle.'
     }
+    
 ]
 export const masonryData = [  
     {   id: 1,
