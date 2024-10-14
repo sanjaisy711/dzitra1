@@ -14,7 +14,7 @@ export default function ServiceFaq(){
             setActiveIndex(index);
         }
     }
-    const accordionData1 = accordionDataprice.filter((x) => x.id < 5);
+    const accordionData1 = accordionDataprice.filter((x) => x.id < 6);
     const accordionData2 = accordionDataprice.filter((x) => x.id > 5)
     return(
         <div id="accordion-collapse" data-accordion="collapse" className="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
