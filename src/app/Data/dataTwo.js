@@ -780,26 +780,6 @@ export const portfolioTwo = [
         role: 'Fields'
     },
     {
-        image: "/images/portfolio/2.jpg",
-        name: 'Basic',
-        role: 'Fields'
-    },
-    {
-        image: "/images/portfolio/3.jpg",
-        name: 'Basic ',
-        role: 'Fields'
-    },
-    {
-        image: "/images/portfolio/4.jpg",
-        name: 'Advanced',
-        role: 'Fields'
-    },
-    {
-        image: "/images/portfolio/5.jpg",
-        name: 'Advanced',
-        role: 'Fields'
-    },
-    {
         image: "/images/portfolio/6.jpg",
         name: 'Dataform',
         role: 'Fields'
@@ -832,6 +812,26 @@ export const portfolioTwo = [
     {
         image: "/images/portfolio/22.jpg",
         name: 'Integration',
+        role: 'Fields'
+    },
+    {
+        image: "/images/portfolio/2.jpg",
+        name: 'Basic',
+        role: 'Fields'
+    },
+    {
+        image: "/images/portfolio/3.jpg",
+        name: 'Basic ',
+        role: 'Fields'
+    },
+    {
+        image: "/images/portfolio/4.jpg",
+        name: 'Advanced',
+        role: 'Fields'
+    },
+    {
+        image: "/images/portfolio/5.jpg",
+        name: 'Advanced',
         role: 'Fields'
     }
 ]
