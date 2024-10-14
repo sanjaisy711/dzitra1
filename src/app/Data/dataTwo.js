@@ -801,38 +801,38 @@ export const portfolioTwo = [
     },
     {
         image: "/images/portfolio/6.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Dataform',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/7.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Process',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/8.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Board',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/9.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'App',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/20.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Explore',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/21.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Analytics',
+        role: 'Fields'
     },
     {
         image: "/images/portfolio/22.jpg",
-        name: 'Iphone mockup',
-        role: 'Branding'
+        name: 'Integration',
+        role: 'Fields'
     }
 ]
 
