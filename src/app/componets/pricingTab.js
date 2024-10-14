@@ -52,7 +52,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>Design custom apps</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>Automate & digitise your business</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Schedule a Demo</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Schedule a Demo</Link>
                                     </div>
                                     <div className="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
                                         <h6 className="font-bold uppercase mb-5 text-indigo-600">Gold</h6>
@@ -67,7 +67,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Design custom apps</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Automate & digitise your business with minimal coding</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
                                     </div>
 
                                     <div className="group border-b-[3px] border-indigo-600 p-6 py-8 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-white dark:bg-slate-900 h-fit">
@@ -85,7 +85,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Automate & digitise your business with minimal coding</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Install pre-built apps to modernize</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Try it Now</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
                                     </div>
 
                                     <div className="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
@@ -122,7 +122,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>Design custom apps</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>Automate & digitise your business</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Schedule a Demo</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Schedule a Demo</Link>
                                     </div>
 
                                     <div className="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
@@ -138,7 +138,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Design custom apps</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Automate & digitise your business with minimal coding</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
                                     </div>
 
                                     <div className="group border-b-[3px] border-indigo-600 p-6 py-8 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-white dark:bg-slate-900 h-fit">
@@ -156,7 +156,7 @@ export default function PricingTab(){
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Automate & digitise your business with minimal coding</li>
                                             <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Install pre-built apps to modernize</li>
                                         </ul>
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Try it Now</Link>
+                                        <Link href="/auth-signup" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Buy Now</Link>
                                     </div>
 
                                     <div className="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
