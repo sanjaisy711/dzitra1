@@ -800,11 +800,6 @@ export const portfolioTwo = [
         role: 'Fields'
     },
     {
-        image: "/images/portfolio/20.jpg",
-        name: 'Explore',
-        role: 'Fields'
-    },
-    {
         image: "/images/portfolio/21.jpg",
         name: 'Analytics',
         role: 'Fields'
@@ -812,6 +807,11 @@ export const portfolioTwo = [
     {
         image: "/images/portfolio/22.jpg",
         name: 'Integration',
+        role: 'Fields'
+    },
+    {
+        image: "/images/portfolio/20.jpg",
+        name: 'Explore',
         role: 'Fields'
     },
     {
