@@ -83,7 +83,18 @@ export const accordionData = [
         id: 8,
         title: 'Can the platform integrate with other business tools?',
         content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
+    },
+    {
+        id: 9,
+        title: 'Can the platform integrate with other business tools?',
+        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
     }
+    {
+        id: ,
+        title: 'Can the platform integrate with other business tools?',
+        content: 'Yes, our platform supports seamless integrations with popular business tools, including CRM systems, ERP software, cloud storage, and other enterprise applications to enhance productivity.'
+    },
+    
 ]
 export const accordionDataprice = [
     {
